@@ -3,3 +3,5 @@ In this assessment, I have created a one-page application that retrieves and sho
 
 **Deployed URL:**
 https://edvora-frontend.netlify.app/
+
+![image](https://user-images.githubusercontent.com/45164745/153889420-1db9b443-52b7-4941-972f-441d3b1ff591.png)
