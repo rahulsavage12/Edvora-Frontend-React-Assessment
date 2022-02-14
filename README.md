@@ -18,5 +18,8 @@ The Filter component parses the list of objects returned by the API and extracts
 
 **_Product.js_**
 
-The Product Component takes in the list of product objects and renders it out inside a Carousel component. I have used a highly customizable npm package 'react-elastic-carousel' for building the Carousel. I have also added an event listener that changes the pagination for carousel responsively based on the width of the device.
+The Product Component takes in the list of product objects and renders it out inside a Carousel component. I have used a highly customizable npm package 'react-elastic-carousel' for building the Carousel. I have also added an event listener that changes the pagination for carousel responsively based on the width of the device. I wrote a function that uses the prebuilt javascript function 'filter' to filter out the required data and present it inside the carousel based on the type of filter given by the user.
 
+**Responsiveness of the Application:**
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/45164745/153894087-c5af7f75-0397-49bc-8055-40a68da8f962.gif)
