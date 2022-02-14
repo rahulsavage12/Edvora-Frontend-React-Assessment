@@ -6,6 +6,8 @@ https://edvora-frontend.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/45164745/153889420-1db9b443-52b7-4941-972f-441d3b1ff591.png)
  
+# COMPONENTS
+
 **_Home.js_**
  
 I began with a Parent component Home.js, within which I used react-bootstrap to construct a layout similar to Figma. Filter and Product are child components of the Home component. I created a filter state hook inside Home and passed the set function to the Filter component and the actual state to the Product Component. Data from the API will be fetched using the use effect hook at the start of the render and sent as props to the child components.
