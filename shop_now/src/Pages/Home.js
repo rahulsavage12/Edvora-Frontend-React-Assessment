@@ -28,12 +28,18 @@ const Home = () => {
     <div class="Home">
       <Container>
         <Row>
+        <Col md={2} >
+           
+          </Col>
+          <Col><h1 class="Head" align="left">Edvora</h1></Col>
+        </Row>
+        <Row>
           <Col md={2} >
             {productslist != null ?
               <Filter productobj={productslist} setFilter={setFilter}></Filter> : <Spinner animation="border" variant="warning" />}
           </Col>
           <Col md={10}>
-            <h1 class="Head" align="left">Edvora</h1>
+            
             <Row>
               <Col>
                 <h2 class="Subtitle">Products</h2>
